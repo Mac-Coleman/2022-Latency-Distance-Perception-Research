@@ -1,8 +1,9 @@
 ﻿// Fill out your copyright notice in the Description page of Project Settings.
 
+#include "DelayPlayerController.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
-#include "DelayPlayerController.h"
+
 
 ADelayPlayerController::ADelayPlayerController()
 	: Super()

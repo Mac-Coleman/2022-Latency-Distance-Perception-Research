@@ -19,8 +19,6 @@ public:
 	ADelayPlayerController();
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
-	void UpdateRotation(float DeltaTime);
-	void SetTransform(FTransform Target);
 
 	UPROPERTY(EditAnywhere, BluePrintReadWrite)
 	float AddedLatency = 0 * 0.001; //Desired Added Latency (seconds)
