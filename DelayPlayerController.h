@@ -22,7 +22,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BluePrintReadWrite)
 	float AddedLatency = 0 * 0.001; //Desired Added Latency (seconds)
-	//You can either set the latency hear and recompile each time or you can make a BluePrint class that extends from this
+	//You can either set the latency here and recompile each time or you can make a BluePrint class that extends from this
 	//so you can change the latency a bit quicker.
 
 	FTransform LastTransform;
